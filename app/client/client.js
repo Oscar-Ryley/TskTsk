@@ -15,7 +15,7 @@ window.addEventListener('load', async function (event) {
                     <div class="col">
                         <p class="card-text" style="display: inline">Completed <input style="width:2rem" value="`+ current.completed +`"></input> out of `+ current.length +` total hours</p>
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                             <label class="form-check-label" for="flexCheckChecked">
@@ -38,7 +38,7 @@ window.addEventListener('load', async function (event) {
                     <div class="col">
                         <p class="card-text" style="display: inline">Completed <input style="width:2rem" value="`+ current.completed +`"></input> out of `+ current.length +` total hours</p>
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                             <label class="form-check-label" for="flexCheckChecked">

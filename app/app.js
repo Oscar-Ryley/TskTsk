@@ -12,7 +12,12 @@ let tasks = [];
 function sql_all() {
   db.serialize(() => {
     db.each("SELECT * FROM tblTask", (err, row) => {
-      tasks.push([row.Name, row.Length, row.Completed, row.Done]);
+      let task = {};
+      task.name = row.Name
+      task.length = row.Length
+      task.completed = row.Completed
+      task.done = row.Done
+      tasks.push(task);
     });
   });
 };

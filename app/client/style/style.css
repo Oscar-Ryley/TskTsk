@@ -1,19 +1,19 @@
 #body {
-    background-color: #353535; 
-    color: #EFE9E7;
+    background-color: #fffcf2; 
+    color: black;
     font-family: "Roboto", sans-serif;
     padding: 5%
 }
 
 #header {
-    background-color: #252525;
-    color: #EFE9E7;
+    background-color: #fff3c9;
+    color: black;
     font-family: "Roboto", sans-serif;
 }
 
 footer {
-    background-color: #252525;
-    color: #EFE9E7;
+    background-color: #fff3c9;
+    color: black;
     font-family: "Roboto", sans-serif;
     padding: 0%;
     margin:0%;
